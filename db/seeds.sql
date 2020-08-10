@@ -1,14 +1,14 @@
 INSERT INTO burger
     (burger_name, devoured)
 VALUES
-    ('Double-Double', false);
+    ('Double-Double', true);
 INSERT INTO burger
     (burger_name, devoured)
 VALUES
-    ('Vegi-Burger', flase);
+    ('Vegi-Burger', true);
 INSERT INTO burger
     (burger_name, devoured)
 VALUES
-    ('BaconBurger', false);
+    ('BaconBurger', true);
 
 
