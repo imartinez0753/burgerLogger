@@ -13,6 +13,7 @@ CREATE TABLE burger
   burger_name varchar
   (255) NOT NULL,
     devoured BOOLEAN DEFAULT 0, 
+    createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY
   (id)
 );
