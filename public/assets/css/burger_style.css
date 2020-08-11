@@ -1,10 +1,13 @@
+body {
+  background-color: #e4f2dc;
+}
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #9be872;
 }
 
-.label {
+label {
   font-weight: bold;
 }
 

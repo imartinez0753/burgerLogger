@@ -1,6 +1,5 @@
 <div class="mx-auto" style="width: 300px;">
     <h1>Eat-Da-Burger!</h1>
-
 </div>
 </br>
 </br>
@@ -9,10 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-5 mx-auto">
-
             <h2>burgers not devoured!</h2>
-
-
             <ul>
                 {{#each burger}}
                 {{#if devoured}}
@@ -20,15 +16,11 @@
                 {{/if}}
                 {{/each}}
             </ul>
-
-
         </div>
         <div class="col-sm-2">
-
         </div>
         <div class="col-sm-5 mx-auto">
             <h2>burgers devoured!</h2>
-
             <ul>
                 {{#each burger}}
                 {{#unless devoured}}
@@ -36,26 +28,18 @@
                 {{/unless}}
                 {{/each}}
             </ul>
-
-
         </div>
     </div>
 </div>
-
-
-
 <div class="container">
     <div class="row">
         <div class="col-sm mx-auto">
-
             <h2>Add a burger</h2>
             <form class="create-form">
-
                 <div class="form-group">
                     <label for="nb">burger Name:</label>
                     <input type="text" id="nb">
                 </div>
-
                 <button type="submit">Add Burger</button>
             </form>
         </div>
